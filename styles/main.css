@@ -1,0 +1,61 @@
+
+footer {
+    font-style: italic;
+    font-size: 32px;
+    background-image: linear-gradient(175deg, #ffffb1 0, #fdf391 25%, #d8d86c 50%, #b3be48 75%, #91a827 100%);
+    text-align: center;
+    padding: 150px 0;
+    margin: 20px,0,0,0;
+    line-height: 1.5em;
+    
+ }
+ 
+
+
+.description{
+    font-size: 35px;
+    padding: 33px;
+    font-weight: 50px;
+}
+.about{
+    background-color: white;
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 80px;
+ 
+}
+
+.option{
+    background-image: linear-gradient(175deg, #ffffb1 0, #7ad689 25%, #e4d871 50%, #b3be48 75%, #85a3e4 100%);
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.2em;
+    text-align: center; 
+    margin:20px,0,0,0 ;
+    padding: 125px, 0;
+}
+.input{
+    text-align: center;
+}
+    
+.registro{
+    font-size: 35px;
+    padding: 80px;
+    font-weight: 30px;
+}
+.form{
+
+    background-image: linear-gradient(175deg, #ffffb1 0, #ec94af 25%, #7c3f72 50%, #b3be48 75%, #91a827 100%);
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 120px, 0;
+    margin:20px,0,0,0 ;
+    display: flexbox; justify-content: flex-init;
+
+}
+
+    
+    
