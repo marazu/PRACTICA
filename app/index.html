@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Añado el título -->
+    <title>Práctica portafolio</title>
+    <link rel="stylesheet" href="/styles/reset.css" target ="_blank">
+    <link rel="stylesheet" href="/styles/main.css" target ="_blank">
+
+</head>
+
+
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Mi portafolios</h1>
+            <h2>Aprendiendo a hacer html</h2>
+
+        </hgroup>
+    <h1>Mi contacto</h1>
+
+</header>
+<div id="contenedor">
+    <div id="barra">
+      <div id="texto"></div>
+    </div>
+  </div>
+  
+
+</div>
+<div class="about">
+
+    <strong class="description" >ABOUT ME</strong>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Dicta in asperiores unde iure similique distinctio corrupti voluptatibus.</p>
+         <p> qui veritatis eveniet, eaque ducimus alias obcaecati rem, delectus, 
+         corporis eum assumenda?</p>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Dicta in asperiores unde iure similique distinctio corrupti voluptatibus.</p>
+        <p> qui veritatis eveniet, eaque ducimus alias obcaecati rem, delectus, 
+            corporis eum assumenda?</p>
+
+
+</div>
+</figure>
+</div>
+
+
+<fieldset >
+    <div class="option">
+    <legend>¿Cómo me conociste?</legend>
+    <label for="uni">Universidad</label>
+    <input required id="uni" type="radio" name="fav" value="js">
+    <label for="linke">Linkedin</label>
+    <input required id="python" type="radio" name="fav" value="python">
+    <label for="redes">Otros</label>
+    <input required id="net" type="radio" name="fav" value="net">
+</div>
+</fieldset>
+<input class="input" type="submit" value="Enviar">
+
+
+
+
+<div class="form">
+
+    <strong class="registro" >CONTACT ME</strong>
+    <!--Post enviando informacion privada si quiero informacion pubclica metodo get-->
+    <form action="/registro-completado.html" method="post">
+
+  <div>
+        <label for="name">Nombre</label>
+        <input required id="name" name="name" type="text" placeholder="Name">
+    </div>
+    <div>
+        <label for="apellido">Apellido</label>
+        <input required id="apellido"  name="surname" type="text">
+    </div>
+    <div>
+        <label for="phone">phone</label>
+        <input required id="phone" name="phone" type="tel" pattern="[0-9]+">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="pass" type="password">
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="100" name="age">
+    </div>
+    <div>
+        <label for="Github">Github</label>
+        <input type=" tel" id="Github" name="Github" pattern="[0-9]+">
+    </div> 
+    <div>
+        <label for="Bio">Escríbeme</label>
+        <textarea required id=></textarea>
+    </div>
+    <input type="submit" value="Enviar">
+      
+    
+
+       
+    
+       
+    
+   
+
+<!--pie de pagina-->
+    <footer>
+        <em>pongo mi texto inc.</em>
+        <div class="social">
+            <ul> <!--Twitter-->
+                <a href="http://twitter.com/home?status=[TITULO]+[URL]"> <span class="fa fa-twitter"></span></a>
+                <!--Facebook-->
+                <a href="http://www.facebook.com/share.php?u=[URL]&title=[TITULO]"><span class="fa fa-facebook"></span></a>
+                <!--Linked In-->
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=[DOMINIO]&title=[TITULO]&summary=&source=[URL]"<span class="fa fa-linkedin"></span></a>
+                <!--Google Plus-->
+                <a href="https://plus.google.com/share?url=[URL]"><span class="fa fa-gplus"></span></a>
+                <!--Pinterest-->
+                <a href="http://pinterest.com/pin/create/button/?url=[URL]&media=[IMAGEN]&description=[DESCRIPCION DE LA IMAGEN]"><span class="fa fa-pinterest"></span></a>
+              
+            </ul>
+        </div>
+        
+        
+
+    </footer>
+</body>
+</html>
